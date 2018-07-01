@@ -1,0 +1,17 @@
+{
+    "root": "./docs",
+    "plugins": [
+        "hints",
+        "sectionx",
+        "anchors",
+        "codetabs"
+    ],
+    "pluginsConfig": {
+        "hints": {
+            "info": "fa fa-info-circle fa-lg",
+            "tip": "fa fa-lightbulb-o fa-lg",
+            "danger": "fa fa-exclamation-circle fa-lg",
+            "working": "fa fa-question-circle fa-lg"
+        }
+    }
+}
