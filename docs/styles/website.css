@@ -1,0 +1,36 @@
+@import 'instructions.css';
+
+.markdown-section h2 {
+  margin-top: 60px;
+}
+
+.help-annotations { 
+  /* color: #666b8f; */
+  color: #A661DB;
+}
+.help-annotations-text {
+  color: white;
+}
+
+/* This allows for neat little bottom-right anchored emoji GIFs by our images */
+.emote-host {
+    position:relative;
+    display:block;
+    float:left;
+}
+
+.emote-host span.emote {
+    position:absolute;
+    overflow: hidden;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    bottom: -20px;
+    right: -20px;
+}
+
+/* Colorize code that isn't in a dedicated stand-alone block, i.e. inline code */
+ul > li > code,
+p > code {
+    color: #801111 !important;
+}

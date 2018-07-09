@@ -1,12 +1,14 @@
 # Summary
 
-## Intro
+* [Overview](README.md)
+* [Setup Instructions](setup/README.md)
 
-* [Introduction](README.md)
-* [Test](test.md)
-* [Sub](sub.md)
+### Part I
 
-## ffvfv
+* [Connecting to Minecraft](ws1-connecting/README.md)
+* [Working with Variables](ws2-variables/README.md)
+* [Loops and Conditionals](ws3-loops/README.md)
 
-* dddd
+----
 
+* [Resources](resources.md)
