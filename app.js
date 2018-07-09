@@ -1,5 +1,10 @@
-var express = require('express'); 
+var express = require("express");
+var morgan = require('morgan');
 var app = express();
-app.use(express.static(__dirname + '/_book'));
+app.use(morgan('combined'));
+app.use("/", express.static(__dirname + '/_book'));
 
-app.listen(process.env.PORT || 3000);
+var port = process.env.PORT || 5000;
+app.listen(port, function () {
+    console.log("Listening on " + port);
+});

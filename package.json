@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.16.3",
-    "gitbook-cli": "^2.3.2"
+    "gitbook-cli": "^2.3.2",
+    "morgan": "^1.9.0"
   },
   "devDependencies": {},
   "scripts": {
