@@ -5,7 +5,8 @@
         "sectionx",
         "anchors",
         "codetabs",
-        "collapse"
+        "collapse",
+        "github"
     ],
     "pluginsConfig": {
         "hints": {
@@ -13,6 +14,9 @@
             "tip": "fa fa-lightbulb-o fa-lg",
             "danger": "fa fa-exclamation-circle fa-lg",
             "working": "fa fa-question-circle fa-lg"
+        },
+        "github": {
+            "url": "https://github.com/kctechgroup/bscl-ltc1-worksheet"
         }
     }
 }
