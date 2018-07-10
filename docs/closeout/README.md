@@ -33,8 +33,8 @@ def plant_flowers(curr_x, curr_y, curr_z, last_x, last_y, last_z):
 
 # Turn a block (via a block event position) into water
 def turn_block_into_water(block_pos):
-    x, y, z = pos
-    mc.setBlock(hit_x, hit_y, hit_z, water)
+    x, y, z = block_pos
+    mc.setBlock(x, y, z, water)
 
 # Begin Main Loop
 while True:
@@ -47,6 +47,7 @@ while True:
     # Gather Block Events
     block_events = mc.events.pollBlockHits()
     for block_event in block_events:
+        print("Hit a block!")
         turn_block_into_water(block_event.pos)
 
     # Sync up the last and current positions
