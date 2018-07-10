@@ -4,7 +4,8 @@
         "hints",
         "sectionx",
         "anchors",
-        "codetabs"
+        "codetabs",
+        "collapse"
     ],
     "pluginsConfig": {
         "hints": {
